@@ -1,5 +1,5 @@
 ul {
-    margin-left: 75%;
+    margin-left: 70%;
 }
 
 form {
@@ -78,7 +78,7 @@ textarea {
 }
 
 .imgContainer {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
 }
@@ -107,6 +107,21 @@ textarea {
         height: auto;
         display: flex;
         margin-left: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+    .imgContainer {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+      
+    .imgContainer img {
+        width: 100%;
+        display: block;
+        margin-top: 30px;
     }
 
 }
