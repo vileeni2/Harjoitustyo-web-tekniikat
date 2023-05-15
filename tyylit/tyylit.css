@@ -1,0 +1,112 @@
+ul {
+    margin-left: 75%;
+}
+
+form {
+    margin: 10%;
+    margin-top: 5%;
+    border: 5px;
+    border-color: black;
+    padding: 5%;
+    font-size: small;
+    line-height: 1.5;
+    align-items: center;
+    
+    
+}
+
+body {
+    justify-items: auto;
+    margin-bottom: 100px;
+}
+
+.important {
+    color: red;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+textarea {
+    width: 80%;
+    height: auto;
+}
+
+#messages {
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#accordionFlushExample {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border: solid black;
+}
+
+#flushHeader {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#accordion1 {
+    text-align: center;
+}
+
+#kuva1, #kuva2, #kuva3 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: 25%;
+}
+
+.listContainer {
+    text-align: left;
+}
+  
+.listContainer span {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.imgContainer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+  
+.imgContainer img {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+}
+
+.indexText {
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+@media only screen and (max-width: 790px) {
+    #kuva1, #kuva2, #kuva3 {
+        width: 80%;
+        height: auto;
+        display: flex;
+        margin-left: 10%;
+    }
+
+}
